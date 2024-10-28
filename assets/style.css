@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif
+}
+
+body {
+    background: #2B2B2B;
+    padding: 96px 260px;
+    gap: 10px;
+
+    & .container {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        box-shadow: 0 0 10 #0000001A;
+        padding: 30px;
+        gap: 30px;
+
+        & h1 {
+            font-weight: 400;
+            font-size: 36px;
+        }
+
+        & form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & .labinpu {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+
+                & label {
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+
+                & input {
+                    display: flex;
+                    border-radius: 6px;
+                    border: 0.5 #757575 solid;
+                    padding: 6px 10px;
+                    color: #7E7E7E99;
+                    gap: 10px;
+                }
+            }
+
+            & .nome {
+                width: 100%;
+                display: flex;
+                gap: 10px;
+
+                & input {
+                    width: 355px;
+                }
+            }
+
+            & .datpf {
+                display: flex;
+                gap: 10px;
+
+                & .labinpu:last-child {
+                    & input {
+                        width: 545px;
+                    }
+                }
+            }
+
+            & .cecom {
+                width: 100%;
+                display: flex;
+                gap: 10px;
+
+                & input {
+                    width: 355px;
+                }
+            }
+
+            & .cidbai {
+                width: 100%;
+                display: flex;
+                gap: 10px;
+
+                & input {
+                    width: 355px;
+                }
+            }
+
+            & .runu {
+                width: 100%;
+                display: flex;
+                gap: 10px;
+
+                & .labinpu:first-child {
+                    & input {
+                        width: 545px;
+                    }
+                }
+            }
+
+            & .sim {
+                display: flex;
+                gap: 5px;
+            }
+
+            & .nao {
+                display: flex;
+                gap: 5px;
+            }
+
+            & button {
+                display: flex;
+                font-weight: 700;
+                font-size: 20px;
+                color: #fff;
+                border-radius: 8px;
+                padding: 10px;
+                background: #5378BB;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                gap: 6px;
+            }
+        }
